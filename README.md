@@ -11,8 +11,8 @@ Pytorch implementation for [Unifying Spike Perception and Prediction: A Compact 
 - Environment
 
   ```python
-  conda create -n $YOUR_PY38_ENV_NAME python=3.8.16
-  conda activate $YOUR_PY38_ENV_NAME
+  conda create -n $YOUR_ENV_NAME python=3.8.16
+  conda activate $YOUR_ENV_NAME
   pip install -r requirements.txt
   ```
 
