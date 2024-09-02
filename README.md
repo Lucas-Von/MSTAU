@@ -20,7 +20,7 @@ Pytorch implementation for [Unifying Spike Perception and Prediction: A Compact 
 ## Evaluation
 
 ```
-python eval_mstau.py --spk_path_file dataset\eval_spk_path.txt --half_win 6 --input_len 10 --batch 2 --worker_num 2 --device YOUR_DEVICE --load_extractor_checkpoint checkpoint\extractor.pth --load_predictor_checkpoint checkpoint\predictor.pth --load_compositor_checkpoint checkpoint\compositor.pth
+python eval_mstau.py --spk_path_file dataset\eval_spk_path.txt --half_win 6 --input_len 10 --batch 2 --worker_num 2 --device $YOUR_DEVICE --load_extractor_checkpoint checkpoint\extractor.pth --load_predictor_checkpoint checkpoint\predictor.pth --load_compositor_checkpoint checkpoint\compositor.pth
 ```
 
 ## Citation
