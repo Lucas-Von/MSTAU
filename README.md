@@ -15,7 +15,8 @@ Pytorch implementation for [Unifying Spike Perception and Prediction: A Compact 
   conda activate $YOUR_ENV_NAME
   pip install -r requirements.txt
   ```
-
+  
+- Download predictor checkpoint via [this link](https://pan.baidu.com/s/1pPWq_FxcTeLsUE4EA8dXkg?pwd=yg2u) and move to `checkpoint` folder.
 
 ## Evaluation
 
